@@ -1,0 +1,207 @@
+/* Stylesheet for WD4E Final Project
+My site is entitled, "Marketing Tactics" */
+
+body{
+    background-color: rgb(219, 219, 219);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 75px 75px 75px;
+    align-items: center;
+    /* background-color: rgb(255, 121, 121); */
+    font-variant: small-caps;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.grid-item{
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.item1{
+    grid-area: 1 / 1 / 4 / 2;
+    text-align: left;
+    font-size: 64px;
+    width: 100px;
+
+}
+
+.item1:active{
+    width: 200px;
+}
+
+.item2{
+    grid-area: 1 / 2 / 2 / 3;
+    text-align: right;
+    font-size: 32px;
+}
+
+.item3{
+    grid-area: 2 / 2 / 3 / 3;
+    text-align: right;
+    font-size: 32px;
+}
+
+.item4{
+    grid-area: 3 / 2 / 4 / 3;
+    text-align: right;
+    font-size: 32px;
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+}
+
+a:focus{
+    color:rgb(255, 0, 0);
+}
+
+.link-except:link{
+    color: black;
+}
+
+.link-except:visited{
+    color: black;
+}
+
+.link-except:hover{
+    color: red;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+h1{
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    background-color:rgb(0, 129, 136);
+
+}
+
+h2{
+    font-size: 20px;
+}
+h3{
+    color:white;
+    background-color: gray;
+}
+p{
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:20px;
+}
+
+.p-contain{
+    display: block;
+    text-align: center;
+    
+    
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    margin: 20px;
+    
+
+}
+
+.tof, .mof, .bof{
+    
+    background-color: rgb(0, 129, 136);
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+    display: grid;
+    width: 200px;
+    align-items: center;
+}
+
+.flex-info{
+    font-size:20px;
+    
+}
+
+.flex-container-2{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+    
+}
+
+.foto{
+    border: 5px rgb(0, 129, 136) solid;
+    border-radius: 25px;
+    margin: 10px;
+
+}
+
+.image{
+    width: 240px;
+    border-radius: 20px;
+}
+.subhead::first-letter{
+    initial-letter: 2;
+}
+
+.list-intro{
+    display: flex;
+    column-gap: 10px;
+    font-size: 24px;
+    margin: 20px;
+    line-height: 200%;
+
+}
+
+.intro{
+    background-color: rgb(0, 129, 136);
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
+img{
+   display: block; 
+   margin-left: auto;
+   margin-right: auto;
+   width: 500px;
+   height: auto;
+}
+
+footer{
+    display: block;
+    color: white;
+    padding: 25px;
+}
+
+.p-footer{
+    align-items: end;
+    text-align: right;
+    font-size: 28px;
+    color: red;
+    padding: 150px 0px 0px 0px;
+}
